@@ -422,3 +422,33 @@ h2::after {
     flex-direction: column;
   }
 }
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #020617;
+}
+
+.loader::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 6px solid #1e293b;
+  border-top: 6px solid #38bdf8;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

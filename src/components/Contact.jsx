@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 function Contact() {
   return (
     <section id="contact" className="contact">
@@ -8,10 +10,11 @@ function Contact() {
       <div className="contact-links">
         <a href="mailto:yourmail@gmail.com">📧 Email</a>
         <a href="https://github.com/Karmugilan-vk" target="_blank">
-          💻 GitHub
+          <FaGithub /> GitHub
         </a>
+
         <a href="https://linkedin.com/in/your-linkedin" target="_blank">
-          🔗 LinkedIn
+          <FaLinkedin /> LinkedIn
         </a>
       </div>
     </section>
