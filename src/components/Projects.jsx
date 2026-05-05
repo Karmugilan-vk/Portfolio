@@ -12,7 +12,6 @@ function Projects() {
             <li>Real-time one-to-one messaging</li>
             <li>JWT-based authentication</li>
             <li>Image upload using Cloudinary</li>
-            <li>Responsive UI with React</li>
           </ul>
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, Socket.IO</p>
           <div className="project-links">
@@ -29,7 +28,6 @@ function Projects() {
             <li>Create, edit, and delete notes</li>
             <li>REST API integration</li>
             <li>MongoDB database connection</li>
-            <li>Clean and responsive UI</li>
           </ul>
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB</p>
           <div className="project-links">
@@ -39,12 +37,11 @@ function Projects() {
 
         <div className="project-card">
           <img src={`${import.meta.env.BASE_URL}temple.png`} alt="Temple Management Web App" className="project-img" />
-          <h3>Temple Management Web App</h3>
+          <h3>Temple Management</h3>
           <p>A group project for managing temple services and user interactions.</p>
           <ul>
             <li>Designed homepage and dashboard UI</li>
             <li>Built responsive layout using EJS</li>
-            <li>Created user dashboard interface</li>
             <li>Collaborated with team integration</li>
           </ul>
           <p><strong>Tech Stack:</strong> Node.js, Express, EJS, Bootstrap, SQL Server</p>

@@ -1,28 +1,44 @@
 function Skills() {
+  const skills = [
+    {
+      title: "Frontend",
+      icon: "🎨",
+      items: ["React.js", "HTML", "CSS", "JavaScript"],
+    },
+    {
+      title: "Backend",
+      icon: "⚙️",
+      items: ["Node.js", "Express.js", "REST APIs"],
+    },
+    {
+      title: "Database",
+      icon: "🗄️",
+      items: ["MongoDB", "SQL"],
+    },
+    {
+      title: "Tools",
+      icon: "🛠️",
+      items: ["Git", "GitHub", "Postman", "VS Code"],
+    },
+  ];
+
   return (
     <section id="skills" className="skills">
       <h2>Skills</h2>
 
       <div className="skills-container">
-        <div className="skill-box">
-          <h3>Frontend</h3>
-          <p>React.js, HTML, CSS, JavaScript</p>
-        </div>
+        {skills.map((skill, index) => (
+          <div className="skill-box" key={index}>
+            <div className="skill-icon">{skill.icon}</div>
+            <h3>{skill.title}</h3>
 
-        <div className="skill-box">
-          <h3>Backend</h3>
-          <p>Node.js, Express.js</p>
-        </div>
-
-        <div className="skill-box">
-          <h3>Database</h3>
-          <p>MongoDB, SQL</p>
-        </div>
-
-        <div className="skill-box">
-          <h3>Tools & Others</h3>
-          <p>Git, GitHub, Postman, VS Code</p>
-        </div>
+            <div className="skill-list">
+              {skill.items.map((item, i) => (
+                <span key={i}>{item}</span>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

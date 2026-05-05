@@ -362,8 +362,14 @@ section {
 
 /* Skills */
 .skills {
-  padding: 90px 10%;
+  padding: 100px 10%;
   background: transparent;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
 }
 
 .skills-container {
@@ -373,28 +379,55 @@ section {
 }
 
 .skill-box {
+  min-height: 240px;
   background: rgba(15, 23, 42, 0.58);
-  padding: 28px;
-  border-radius: 20px;
   border: 1px solid rgba(56, 189, 248, 0.22);
-  transition: 0.3s ease;
+  border-radius: 26px;
+  padding: 30px 24px;
+  text-align: center;
+  transition: 0.35s ease;
 }
 
 .skill-box:hover {
   transform: translateY(-10px);
   border-color: #38bdf8;
-  box-shadow: 0 20px 40px rgba(56, 189, 248, 0.15);
+  background: rgba(56, 189, 248, 0.08);
+  box-shadow: 0 20px 45px rgba(56, 189, 248, 0.14);
+}
+
+.skill-icon {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 18px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  font-size: 28px;
 }
 
 .skill-box h3 {
   color: #38bdf8;
-  margin-bottom: 12px;
-  font-size: 22px;
+  font-size: 24px;
+  margin-bottom: 18px;
 }
 
-.skill-box p {
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill-list span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(2, 6, 23, 0.55);
+  border: 1px solid rgba(56, 189, 248, 0.16);
   color: #cbd5e1;
-  line-height: 1.6;
+  font-size: 14px;
 }
 
 /* Projects */
