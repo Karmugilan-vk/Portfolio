@@ -2,7 +2,7 @@
 
 A modern and responsive **developer portfolio website** built using React, showcasing my projects, skills, and experience as a MERN Stack Developer.
 
-🌐 **Live Demo:** https://your-portfolio-link-here
+🌐 **Live Demo:** https://karmugilan-vk.github.io/Portfolio/
 
 ---
 
@@ -61,6 +61,7 @@ Group project for managing temple services and bookings
 _Add your project screenshots here_
 
 ---
+<img width="1575" height="999" alt="temple" src="https://github.com/user-attachments/assets/cb74d297-61a1-47c8-ae82-e28982d5613a" />
 
 ## 📦 Installation & Setup
 
