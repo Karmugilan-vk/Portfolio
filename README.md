@@ -56,17 +56,8 @@ Group project for managing temple services and bookings
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-_Add your project screenshots here_
+<img width="425" height="286" alt="chatify" src="https://github.com/user-attachments/assets/6f86bf86-f6b7-4e2a-b3a5-0ca73f6ccf57" />
 
 ---
-<img width="1575" height="999" alt="temple" src="https://github.com/user-attachments/assets/cb74d297-61a1-47c8-ae82-e28982d5613a" />
-
-## 📦 Installation & Setup
-
-```bash
-git clone https://github.com/your-username/your-portfolio-repo.git
-cd your-portfolio-repo
-npm install
-npm run dev
