@@ -1116,6 +1116,51 @@ section {
 
 }
 
+.footer-code {
+  position: absolute;
+
+  left: 80px;
+
+  bottom: 35px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 6px;
+
+  font-size: 15px;
+
+  color: rgba(56, 189, 248, 0.35);
+
+  font-family: monospace;
+
+  text-align: left;
+
+  animation: floatCode 4s ease-in-out infinite;
+}
+
+.footer-code span {
+  letter-spacing: 1px;
+}
+
+@keyframes floatCode {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .footer-code {
+    display: none;
+  }
+}
+
 /* Loader */
 .loader {
   height: 100vh;
