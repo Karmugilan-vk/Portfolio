@@ -8,22 +8,34 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import FeaturedProject from "./components/FeaturedProject";
 import Journey from "./components/Journey";
+import FloatingTechIcons from "./components/FloatingTechIcons";
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // 2 sec loader
+    }, 2000);
   }, []);
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   if (loading) {
     return <div className="loader"></div>;
   }
+
   return (
     <>
-      <Navbar />
+      <FloatingTechIcons />
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Hero />
       <About />
       <FeaturedProject />

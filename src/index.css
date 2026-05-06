@@ -100,20 +100,7 @@ section {
   width: 100%;
 }
 
-.nav-btn {
-  padding: 10px 20px;
-  border-radius: 999px;
-  background: #38bdf8;
-  color: #020617;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.3s ease;
-}
 
-.nav-btn:hover {
-  background: white;
-  transform: translateY(-2px);
-}
 
 /* Hero */
 .hero {
@@ -1253,9 +1240,7 @@ section {
     font-size: 14px;
   }
 
-  .nav-btn {
-    display: none;
-  }
+
 
   .logo {
     font-size: 20px;
@@ -1295,4 +1280,139 @@ section {
   .project-links {
     flex-direction: column;
   }
+}
+
+body.dark {
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 28%),
+    linear-gradient(135deg, #020617, #0f172a);
+  color: #ffffff;
+}
+
+body.light {
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 28%),
+    linear-gradient(135deg, #f8fafc, #e2e8f0);
+  color: #020617;
+}
+
+.theme-toggle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: #38bdf8;
+  color: #020617;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-3px);
+  background: white;
+}
+
+/* Floating Tech Icons */
+.floating-icons {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.float-icon {
+  position: absolute;
+  color: rgba(56, 189, 248, 0.18);
+  font-size: 55px;
+  animation: floatTech 8s ease-in-out infinite;
+}
+
+.icon-1 {
+  top: 18%;
+  left: 6%;
+}
+
+.icon-2 {
+  top: 35%;
+  right: 8%;
+  animation-delay: 1s;
+}
+
+.icon-3 {
+  bottom: 18%;
+  left: 10%;
+  animation-delay: 2s;
+}
+
+.icon-4 {
+  bottom: 28%;
+  right: 12%;
+  animation-delay: 3s;
+}
+
+.icon-5 {
+  top: 65%;
+  left: 45%;
+  animation-delay: 4s;
+}
+
+.icon-6 {
+  top: 12%;
+  right: 35%;
+  animation-delay: 5s;
+}
+
+@keyframes floatTech {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-22px) rotate(8deg);
+  }
+}
+
+.navbar,
+.hero,
+.about,
+.featured-project-section,
+.projects,
+.skills,
+.journey,
+.contact,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Light mode card/text fixes */
+body.light .navbar,
+body.light .project-card,
+body.light .skill-card,
+body.light .about-main-card,
+body.light .about-info-card,
+body.light .journey-item,
+body.light .contact-card {
+  background: rgba(255, 255, 255, 0.75);
+  color: #020617;
+}
+
+body.light p,
+body.light .hero-description,
+body.light .hero-quote,
+body.light .project-content p,
+body.light .skill-tags span,
+body.light .journey-item p,
+body.light .contact-card p,
+body.light .footer-content p {
+  color: #334155;
+}
+
+body.light .nav-links a {
+  color: #334155;
 }
