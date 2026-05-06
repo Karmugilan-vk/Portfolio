@@ -48,7 +48,7 @@ function Hero() {
             </button>
 
             <a href={`${import.meta.env.BASE_URL}resume.pdf`} download>
-              <button className="outline-btn">Download Resume</button>
+              <button className="outline-btn">Explore Resume</button>
             </a>
           </div>
 

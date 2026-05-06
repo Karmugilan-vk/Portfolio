@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import FeaturedProject from "./components/FeaturedProject";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <FeaturedProject />
       <Projects />
       <Skills />
       <Contact />
