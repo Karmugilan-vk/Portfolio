@@ -11,7 +11,11 @@ html {
 body {
   font-family: "Poppins", "Segoe UI", sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 28%),
+    radial-gradient(
+      circle at top left,
+      rgba(56, 189, 248, 0.18),
+      transparent 28%
+    ),
     linear-gradient(135deg, #020617, #0f172a);
   color: #ffffff;
 }
@@ -99,8 +103,6 @@ section {
 .nav-links a:hover::after {
   width: 100%;
 }
-
-
 
 /* Hero */
 .hero {
@@ -483,7 +485,6 @@ section {
   }
 }
 
-
 /* FEATURED PROJECT */
 .featured-project-section {
   padding: 120px 8%;
@@ -635,7 +636,6 @@ section {
 
 /* MOBILE */
 @media (max-width: 992px) {
-
   .featured-project-container {
     grid-template-columns: 1fr;
   }
@@ -643,11 +643,9 @@ section {
   .featured-left h2 {
     font-size: 40px;
   }
-
 }
 
 @media (max-width: 768px) {
-
   .featured-features {
     grid-template-columns: 1fr;
   }
@@ -655,7 +653,6 @@ section {
   .featured-buttons {
     flex-direction: column;
   }
-
 }
 
 /* Projects */
@@ -1050,7 +1047,7 @@ section {
 
   padding-top: 25px;
 
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 
   display: flex;
   justify-content: space-between;
@@ -1095,7 +1092,6 @@ section {
 
 /* MOBILE */
 @media (max-width: 768px) {
-
   .footer {
     padding: 90px 6% 35px;
   }
@@ -1113,7 +1109,6 @@ section {
     flex-direction: column;
     gap: 20px;
   }
-
 }
 
 .footer-code {
@@ -1145,7 +1140,8 @@ section {
 }
 
 @keyframes floatCode {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
 
@@ -1193,7 +1189,8 @@ section {
 }
 
 @keyframes floatImage {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -1214,7 +1211,8 @@ section {
 }
 
 @keyframes pulseGlow {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 0 10px rgba(56, 189, 248, 0.25);
   }
   50% {
@@ -1285,8 +1283,6 @@ section {
     font-size: 14px;
   }
 
-
-
   .logo {
     font-size: 20px;
   }
@@ -1329,14 +1325,22 @@ section {
 
 body.dark {
   background:
-    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 28%),
+    radial-gradient(
+      circle at top left,
+      rgba(56, 189, 248, 0.18),
+      transparent 28%
+    ),
     linear-gradient(135deg, #020617, #0f172a);
   color: #ffffff;
 }
 
 body.light {
   background:
-    radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 28%),
+    radial-gradient(
+      circle at top left,
+      rgba(56, 189, 248, 0.16),
+      transparent 28%
+    ),
     linear-gradient(135deg, #f8fafc, #e2e8f0);
   color: #020617;
 }
@@ -1413,7 +1417,8 @@ body.light {
 }
 
 @keyframes floatTech {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg);
   }
 

@@ -6,7 +6,7 @@ function Journey() {
 
       <div className="journey-timeline">
         <div className="journey-item">
-          <span>2025</span>
+          <span>2024</span>
           <h3>Started MERN Stack</h3>
           <p>Started learning React, Node.js, Express, and MongoDB.</p>
         </div>

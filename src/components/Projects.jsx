@@ -31,7 +31,7 @@ function Projects() {
           </ul>
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB</p>
           <div className="project-links">
-            <a href="https://github.com/Karmugilan-vk/ThinkBoard-Application" target="_blank">GitHub</a>
+            <a href="https://github.com/Karmugilan-vk/mern-thinkboard.git" target="_blank">GitHub</a>
           </div>
         </div>
 
@@ -44,9 +44,9 @@ function Projects() {
             <li>Built responsive layout using EJS</li>
             <li>Collaborated with team integration</li>
           </ul>
-          <p><strong>Tech Stack:</strong> Node.js, Express, EJS, Bootstrap, SQL Server</p>
+          <p><strong>Tech Stack:</strong> Node.js, Express, EJS, SQL Server</p>
           <div className="project-links">
-            <a href="YOUR_GITHUB_LINK" target="_blank">GitHub</a>
+            <a href="https://github.com/Sanjai-Magilan/Temple_Web_App.git" target="_blank">GitHub</a>
           </div>
         </div>
       </div>

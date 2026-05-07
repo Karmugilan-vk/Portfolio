@@ -4,7 +4,6 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-
         <div className="hero-left">
           <p className="hero-tag">Welcome to my portfolio</p>
 
@@ -14,11 +13,11 @@ function Hero() {
 
           <TypeAnimation
             sequence={[
-              "MERN Stack Developer",
-              1500,
               "Full Stack Developer",
               1500,
               "Open Source Enthusiast",
+              1500,
+              "Problem Solver",
               1500,
             ]}
             speed={50}
@@ -27,14 +26,14 @@ function Hero() {
           />
 
           <p className="hero-quote">
-            "Building scalable web applications with clean UI and strong backend logic"
+            "Turning ideas into clean, responsive, and user-focused web
+            experiences."
           </p>
 
           <p className="hero-description">
-            I build responsive and scalable web applications using React,
-            Node.js, Express, and MongoDB.
+            I enjoy developing full-stack applications, building smooth user
+            interfaces, and solving real-world problems through code.
           </p>
-
 
           <div className="hero-buttons">
             <button
@@ -53,9 +52,9 @@ function Hero() {
           </div>
 
           <div className="hero-highlights">
-            <span>3+ Projects Built</span>
-            <span>MERN Stack</span>
-            <span>Open to Internship</span>
+            <span>Scalable Systems</span>
+            <span>API Integration</span>
+            <span>Responsive Design</span>
           </div>
         </div>
 
@@ -65,7 +64,6 @@ function Hero() {
             alt="Karmugilan R"
           />
         </div>
-
       </div>
     </section>
   );

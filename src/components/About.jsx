@@ -8,12 +8,14 @@ function About() {
           <p className="about-label">Who I Am</p>
 
           <h3>
-            MERN Stack Developer focused on building clean, scalable web apps.
+            Full Stack Developer passionate about building
+        modern, scalable, and user-focused applications.
           </h3>
 
           <p>
-            I'm Karmugilan R, an ECE student passionate about full-stack
-            development, real-time applications, and modern web technologies.
+            I'm Karmugilan R, a developer passionate about creating
+modern web applications with clean design, scalable backend
+systems, and seamless user experiences.
           </p>
 
           <div className="about-points">
@@ -27,22 +29,26 @@ function About() {
         <div className="about-grid">
           <div className="about-info-card">
             <h4>💻 Development</h4>
-            <p>Building responsive frontend and backend applications.</p>
+            <p>Developing responsive frontend interfaces and scalable
+          backend applications using modern technologies.</p>
           </div>
 
           <div className="about-info-card">
-            <h4>⚡ Real-time Apps</h4>
-            <p>Created Chatify using Socket.IO for instant messaging.</p>
+            <h4>⚡ Problem Solving</h4>
+            <p>Enjoy solving real-world challenges through clean,
+          efficient, and maintainable code.</p>
           </div>
 
           <div className="about-info-card">
-            <h4>🚀 Current Goal</h4>
-            <p>Seeking a software development internship opportunity.</p>
+            <h4>🚀 Career Goal</h4>
+            <p>Working towards becoming a skilled software engineer
+          and contributing to impactful products.</p>
           </div>
 
           <div className="about-info-card">
-            <h4>📚 Learning</h4>
-            <p>Improving Java, MERN stack, and problem-solving skills.</p>
+            <h4>📚 Continuous Learning</h4>
+            <p>Constantly improving in full-stack development,
+          Java, backend systems, and UI design.</p>
           </div>
         </div>
       </div>

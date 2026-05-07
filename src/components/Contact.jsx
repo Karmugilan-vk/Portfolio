@@ -1,9 +1,4 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -14,16 +9,17 @@ function Contact() {
         <h2>Contact Me</h2>
 
         <p className="contact-description">
-          I'm currently open to internship opportunities, freelance work,
-          and collaborations. Feel free to connect with me through any platform.
+          I'm currently open to internship opportunities, freelance work, and
+          collaborations. Feel free to connect with me through any platform.
         </p>
       </div>
 
       <div className="contact-container">
-
         {/* EMAIL */}
         <a
-          href="mailto:karmugilanrama@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=karmugilanrama@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="contact-card"
         >
           <div className="contact-icon">
@@ -86,7 +82,6 @@ function Contact() {
             <p>Quick Connect</p>
           </div>
         </a>
-
       </div>
     </section>
   );
