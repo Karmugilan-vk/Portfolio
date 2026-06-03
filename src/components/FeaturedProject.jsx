@@ -55,13 +55,6 @@ function FeaturedProject() {
           <div className="featured-buttons">
 
             <a
-              href="https://chatify-app-tnkv6.sevalla.app/"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-
-            <a
               href="https://github.com/Karmugilan-vk/Chatify-app"
               target="_blank"
               className="outline-btn"

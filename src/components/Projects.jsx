@@ -15,7 +15,6 @@ function Projects() {
           </ul>
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, Socket.IO</p>
           <div className="project-links">
-            <a href="https://chatify-app-tnkv6.sevalla.app/" target="_blank">Live Demo</a>
             <a href="https://github.com/Karmugilan-vk/Chatify-app" target="_blank">GitHub</a>
           </div>
         </div>
